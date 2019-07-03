@@ -21,6 +21,9 @@ describe("StringCalculator!!", function() {
     if(string.length == 0){
       return 0;
     }
+    else{
+      return string.length;
+    }
   }
   
 });
