@@ -17,6 +17,15 @@ describe("StringCalculator!!", function() {
     expect(result).toEqual(13);
   });
 
+  it("Case in which there are two chains", function() {
+    const string1 = "palabra";
+    const string2 = "toma"
+
+    const result = add(string1 , string2);
+
+    expect(result).toEqual(11);
+  });
+
   function add(string){
     if(string.length == 0){
       return 0;
@@ -25,5 +34,7 @@ describe("StringCalculator!!", function() {
       return string.length;
     }
   }
+
+  
   
 });
