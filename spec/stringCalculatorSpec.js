@@ -9,6 +9,10 @@ describe("StringCalculator!!", function() {
     
   });
 
-
+  function add(string){
+    if(string.length == 0){
+      return 0;
+    }
+  }
   
 });
