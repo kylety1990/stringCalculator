@@ -1,11 +1,14 @@
-describe("Player", function() {
+describe("StringCalculator!!", function() {
   
-  it("should be able to play a Song", function() {
-    
-    expect(true).toEqual(true);
+  it("If the chain is empty", function() {
+    const string = '';
 
+    const result = add(string)
+    
+    expect(result).toEqual(0);
     
   });
+
 
   
 });
